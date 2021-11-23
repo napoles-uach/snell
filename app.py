@@ -60,7 +60,7 @@ def plot_all(x1,y1,x2,y2,alpha1,alpha2):
 
 if np.isnan(m)==False:
   plot_all(x1,y1,x2,y2,alpha1,alpha2)
-  col4.write('Angulo de refracción'+str(theta2*180/np.pi))
+  col4.write('Angulo de refracción '+str(theta2*180/np.pi))
 else:
   y2=-y1
   plot_all(x1,y1,x1,y2,alpha1,alpha2)
