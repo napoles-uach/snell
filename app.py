@@ -19,6 +19,8 @@ de la Facultad de Ciencias Químicas
 de la Universidad Autónoma de Chihuahua
 ''')
 
+st.sidebar.image('http://fcq.uach.mx/images/institucionales/Escudos/Dorado.png')
+
 x1=np.linspace(-10,0,500)
 
 x2=np.linspace(0,10,500)
