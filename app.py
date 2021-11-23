@@ -27,7 +27,7 @@ x2=np.linspace(0,10,500)
 
 #n1=1.6
 #n2=1.2
-col1,col2,col3,col4=st.columns([3,3,5,1])
+col1,col2,col3,col4=st.columns([3,3,5,3])
 n1=col1.number_input('n1',1.0)
 n2=col2.number_input('n2',1.0)
 alpha1=1-1/n1
