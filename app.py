@@ -27,7 +27,7 @@ x2=np.linspace(0,10,500)
 
 #n1=1.6
 #n2=1.2
-col1,col2,col3=st.columns([3,3,5])
+col1,col2,col3,col4=st.columns([3,3,5,1])
 n1=col1.number_input('n1',1.0)
 n2=col2.number_input('n2',1.0)
 alpha1=1-1/n1
@@ -60,7 +60,7 @@ def plot_all(x1,y1,x2,y2,alpha1,alpha2):
 
 if np.isnan(m)==False:
   plot_all(x1,y1,x2,y2,alpha1,alpha2)
-  col3.write('Ángulo de refracción:',theta2)
+  col4.write('Ángulo de refracción:',theta2)
 else:
   y2=-y1
   plot_all(x1,y1,x1,y2,alpha1,alpha2)
