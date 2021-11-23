@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
+st.sidebar.title('Ley de Snell')
 
 x1=np.linspace(-10,0,500)
 
