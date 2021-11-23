@@ -19,7 +19,7 @@ de la Facultad de Ciencias Químicas
 de la Universidad Autónoma de Chihuahua
 ''')
 
-st.sidebar.image('http://fcq.uach.mx/images/institucionales/Escudos/UACH.png')
+st.sidebar.image('logo.png')
 
 x1=np.linspace(-10,0,500)
 
