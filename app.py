@@ -19,7 +19,7 @@ de la Facultad de Ciencias Químicas
 de la Universidad Autónoma de Chihuahua
 ''')
 
-st.sidebar.image('logo.png')
+st.sidebar.image('logofcq.png')
 
 x1=np.linspace(-10,0,500)
 
