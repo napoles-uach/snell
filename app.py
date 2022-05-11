@@ -44,12 +44,12 @@ def plot_all(x1,y1,x2,y2,alpha1,alpha2):
   st.write(fig)
 
   
-col5,col6=st.columns([4,3])
+col5,col6,col7=st.columns([4,4,4])
 if np.isnan(m)==False:
-  with col5:
+  with col6:
     plot_all(x1,y1,x2,y2,alpha1,alpha2)
   col4.write('Ángulo de refracción '+str(round(theta2*180/np.pi,2)))
 else:
   y2=-y1
-  with col5:
+  with col6:
     plot_all(x1,y1,x1,y2,alpha1,alpha2)
