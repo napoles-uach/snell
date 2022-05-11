@@ -4,20 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
 st.sidebar.title('Ley de Snell')
-st.sidebar.markdown('''
-Software didáctico diseñando
-por los profesores
-* D.C. José Manuel Nápoles Duarte
-* M.C. Carlos Armando de la Vega Cobos
 
-En apoyo a las materias:
-Física Básica II
-y
-Fenómenos Electroópticos
-
-de la Facultad de Ciencias Químicas
-de la Universidad Autónoma de Chihuahua
-''')
 
 st.sidebar.image('logofcq.png')
 
