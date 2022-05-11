@@ -5,9 +5,6 @@ from matplotlib.patches import Rectangle
 
 st.sidebar.title('Ley de Snell')
 
-
-st.sidebar.image('logofcq.png')
-
 x1=np.linspace(-10,0,500)
 
 x2=np.linspace(0,10,500)
