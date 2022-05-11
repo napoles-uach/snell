@@ -38,6 +38,7 @@ def plot_all(x1,y1,x2,y2,alpha1,alpha2):
   ax.add_patch(Rectangle((-10, -10), 10, 20,alpha=alpha1))
   ax.axis('off')
   ax.axhline(y=0,c='black',ls='--',alpha=0.3)
+  ax.axvline(x=10,c='black',ls='--',alpha=0.3)
   ax.axes.set_xlim(-10,10)
   ax.axes.set_ylim(-10,10)
   ax.plot(x1,y1,x2,y2,c='red')
