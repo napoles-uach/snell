@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
 st.sidebar.title('Ley de Snell')
+st.sidebar.image('https://en.wikipedia.org/wiki/Refraction#/media/File:Refraction_photo.png')
 
 x1=np.linspace(-10,0,500)
 
