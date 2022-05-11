@@ -44,7 +44,7 @@ def plot_all(x1,y1,x2,y2,alpha1,alpha2):
   st.write(fig)
 
   
-col5,col6,col7=st.columns([4,4,4])
+col5,col6,col7=st.columns([2,6,2])
 if np.isnan(m)==False:
   with col6:
     plot_all(x1,y1,x2,y2,alpha1,alpha2)
