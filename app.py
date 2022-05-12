@@ -5,7 +5,7 @@ from matplotlib.patches import Rectangle
 
 st.sidebar.title('Ley de Snell')
 st.sidebar.image('https://upload.wikimedia.org/wikipedia/commons/8/85/Refraction_photo.png')
-
+st.sidebar.latex(r'n_1 \sin(\theta _1)')
 x1=np.linspace(-10,0,500)
 
 x2=np.linspace(0,10,500)
